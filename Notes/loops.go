@@ -17,16 +17,16 @@ func main() {
 	// the condition expression: evaluated before every iteration
 	// the post statement: executed at the end of every iteration
 
-	// var i int
-	// for i=0 ; i<5 ; i++ {
-	// 	fmt.Println(i)
-	// }
+	var i int
+	for i=0 ; i<5 ; i++ {
+		fmt.Println(i)
+	}
 
 	//simple method, similar to C++
 
-	// for i:=0;i<5;i++ {
-	// 	fmt.Println(i)
-	// }
+	for i:=0;i<5;i++ {
+		fmt.Println(i)
+	}
 
 
 	//for loop without init and post statement (short statement)
@@ -41,9 +41,9 @@ func main() {
 	//for each loop
 	//we can use it for iterating through array or slice
 
-	// for i:= range object{	//object = array or slice
-	// 	fmt.Println(i)
-	// }
+	for i:= range object{	//object = array or slice
+		fmt.Println(object[i])
+	}
 
 	//traversing using loops
 	//similar to foreach loop
