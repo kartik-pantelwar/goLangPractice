@@ -25,4 +25,4 @@ func main(){
 	// } else {
 	// 	fmt.Println("Not Eligible to Vote")
 	// }
-}t
+}
