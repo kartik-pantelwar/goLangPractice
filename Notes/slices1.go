@@ -7,7 +7,7 @@ import (
 func main(){
 	//slices are like Vectors
 
-	//syntax 1 of defining slice -->
+	//&syntax 1 of defining slice -->
 
 	var slice1 =[]int{11,22,33,44}	//if we use this syntax, then we need to initialize it as well
 	fmt.Println("slice-",slice1)
@@ -21,7 +21,7 @@ func main(){
 	slice1 = append(slice1[1:4])
 	fmt.Println("after slicing-",slice1)
 
-	//syntax2 of defining slice -->
+	//&syntax2 of defining slice -->
 	//using make()
 	//NameOfArray/Slice := make([]dateype, size)
 	slice2 := make([]int, 4)
@@ -33,4 +33,7 @@ func main(){
 	fmt.Println("slice2=",slice2)
 	sort.Ints(slice2)
 	fmt.Println("Slice after sorting-",slice2)
+
+	//&syntax 3->
+	// var s1 []int 
 }
