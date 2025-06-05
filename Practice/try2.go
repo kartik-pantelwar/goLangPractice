@@ -1,11 +1,13 @@
 package main
 
 import (
-	"math/rand"
+	// "math/rand"
 	"fmt"
+	"math/rand"
 )
 
-func main(){
-	fmt.Println(rand.Int())
+type deck []string
 
+func main() {
+	
 }

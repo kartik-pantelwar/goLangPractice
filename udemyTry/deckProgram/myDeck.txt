@@ -1,0 +1,1 @@
+club-2,club-3,club-4,club-5,club-6,club-7,club-8,club-9,club-10,club-king,club-queen,club-jack,club-ace,diamond-2,diamond-3
