@@ -23,6 +23,8 @@ type Result struct {
 
 // worker is a goroutine that takes Jobs from the jobs channel, processes them, and sends Results to the results channel
 func worker(id int, jobs <-chan Job, results chan<- Result, wg *sync.WaitGroup) {
+    //jobs is a receiver channel (that receive jobs)
+    //result is a sender channel (that send results)
     defer wg.Done()
     client := &http.Client{
         Timeout: 5 * time.Second,
